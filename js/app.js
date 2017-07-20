@@ -56,7 +56,7 @@ Find the div with the class name of "alias" and replace the n/a with your favori
 
 var divAli = document.getElementsByClassName("alias")
 console.log(divAli);
-divElem[2].innerHTML = "dddfdafs";
+divAli[2].innerHTML = "Snake's on the plan guy";
 
 /*7. Peter Griffin
 
@@ -64,7 +64,10 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
-
+var newDivv = document.createElement("div");
+newDivv.id = "name7";
+newDivv.innerHTML= "Peter Griffin";
+nameParent.appendChild(newDivv);
  
 /*8. Tim Duncan
 
@@ -72,7 +75,10 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
-
+var newDiA = document.createElement("div");
+newDiA.id = "alias8";
+newDiA.innerHTML= "Old Man Riverwalk";
+aliasParent.appendChild(newDiA);
 
 //Final Boss
 /*9. Create your own profile.*/
