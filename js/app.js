@@ -83,3 +83,14 @@ aliasParent.appendChild(newDiA);
 //Final Boss
 /*9. Create your own profile.*/
 
+
+// var divProf = document.getElementsByClassName("profile")
+// console.log(divProf);
+// divElem[1].innerHTML = "Wataaah";
+// var ImgNew = document.getElementsByClassName("block3 col-sm-4")
+var newImgEl = document.getElementsByTagName("img");
+newImgEl[8].src ="https://vignette2.wikia.nocookie.net/dccu/images/6/6f/JL_Wonder_Woman.jpg/revision/latest?cb=20160914003449";
+
+
+
+
