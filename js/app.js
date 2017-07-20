@@ -44,13 +44,19 @@ divElem[0].innerHTML = "Purple rain, purple rain";
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
+var divProf = document.getElementsByClassName("profile")
+console.log(divProf);
+divElem[1].innerHTML = "Wataaah";
+
 
 
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var divAli = document.getElementsByClassName("alias")
+console.log(divAli);
+divElem[2].innerHTML = "dddfdafs";
 
 /*7. Peter Griffin
 
